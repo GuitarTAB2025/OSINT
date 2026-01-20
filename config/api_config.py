@@ -19,7 +19,7 @@ API_ENABLED = True  # Ubah ke True untuk real tracking
 # - Numverify API
 # - Custom API Anda sendiri
 API_KEYS = {
-    "primary": "45055cf90b86afdced5d178b590a2a22",  # Masukkan API key utama Anda
+    "primary": "",  # Masukkan API key utama Anda
     "secondary": ""  # API key backup (optional)
 }
 
@@ -30,7 +30,7 @@ API_KEYS = {
 # Ganti dengan endpoint API Anda
 # Format: "https://api.example.com/path"
 API_ENDPOINTS = {
-    "phone_lookup": "http://apilayer.net/api/validate",
+    "phone_lookup": "https://api.example.com/v1/phone/lookup",
     "nik_lookup": "https://api.example.com/v1/nik/lookup",
     "operator_check": "https://api.example.com/v1/operator/check",
     "location_lookup": "https://api.example.com/v1/location/lookup"
